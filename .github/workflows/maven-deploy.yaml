@@ -3,9 +3,9 @@ name: Deploy
 on:
   push:
     branches-ignore:
-      - 'master'
+      - 'main'
       - '/HOTFIX-.*/'
 jobs:
   build_and_deploy:
-    uses: scoperetail-io/marvel-github-workflows/.github/workflows/maven-deploy-jdk11.yaml@master
+    uses: nmahapure@main
     secrets: inherit
