@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
       - 'HOTFIX-**'
 jobs:
   build_and_release:
