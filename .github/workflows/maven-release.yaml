@@ -1,0 +1,11 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - 'master'
+      - 'HOTFIX-**'
+jobs:
+  build_and_release:
+    uses: scoperetail-io/marvel-github-workflows/.github/workflows/maven-release-jdk11.yaml@master
+    secrets: inherit
