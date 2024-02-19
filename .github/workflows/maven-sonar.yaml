@@ -4,5 +4,5 @@ on: [pull_request]
 
 jobs:
   sonar-scan:
-    uses: scoperetail-io/marvel-github-workflows/.github/workflows/maven-sonar-jdk11.yaml@master
+    uses: nmahapure/marvel-github-workflows/.github/workflows/maven-sonar-jdk11.yaml@main
     secrets: inherit
